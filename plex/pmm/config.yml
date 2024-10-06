@@ -76,9 +76,9 @@ libraries: # Library mappings must have a colon (:) placed after them
 #      - repo: collections/recommendations/shows
 #      - repo: collections/trending/shows
 #      - repo: collections/years/shows
-playlist_files:
-- repo: playlists/general/movies_playlists_general
-- repo: playlists/general/shows_playlists_general
+# playlist_files:
+# - repo: playlists/general/movies_playlists_general
+# - repo: playlists/general/shows_playlists_general
 settings:                                       # Can be individually specified per library as well
   custom_repo: https://raw.githubusercontent.com/ironfist66/configs/main/plex/pmm/
   cache: true
