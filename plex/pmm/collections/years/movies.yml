@@ -28,7 +28,7 @@ dynamic_collections:
     type: number
     sync: true
     data:
-      starting: 1990
+      starting: 2014
       ending: current_year
     title_format: 🍅 Best of <<key_name>>
     template:
