@@ -2,7 +2,7 @@ libraries: # Library mappings must have a colon (:) placed after them
   Movies:
     library_name: Movies
     collection_files:
-      - repo: collections/pre_rolls # Pre-Rolls, runs as part of Movies
+      # - repo: collections/pre_rolls # Pre-Rolls, runs as part of Movies
       - repo: collections/actors/movies
       - repo: collections/awards/movies
       - repo: collections/best/movies
