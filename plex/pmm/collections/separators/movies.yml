@@ -7,7 +7,7 @@ collections:
   # Movie MUST be in the library, so try to use a popular movie likely to be on any given server
   "Awards":
     template: { name: Award,
-                level: "+++++++++++s" }
+                level: "+++++++++++" }
     summary: "Awards"
     visible_library: false
     visible_home: false

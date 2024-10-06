@@ -51,7 +51,7 @@ templates:
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
-    sort_title: 010_+<<level>>_<<sort_title_name>>
+    sort_title: 009_+<<level>>_<<sort_title_name>>
     sync_mode: sync
     schedule:
       - daily
@@ -64,7 +64,7 @@ templates:
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
-    sort_title: 040_+<<level>>_<<sort_title_name>>
+    sort_title: 039_+<<level>>_<<sort_title_name>>
     sync_mode: sync
     schedule:
       - daily
@@ -77,7 +77,7 @@ templates:
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
-    sort_title: 050_+<<level>>_<<sort_title_name>>
+    sort_title: 049_+<<level>>_<<sort_title_name>>
     sync_mode: sync
     schedule:
       - weekly(sunday)
@@ -93,7 +93,7 @@ templates:
       all:
         actor: tmdb
     tmdb_person: <<tmdb>>
-    sort_title: 052_+<<level>>_<<sort_title_name>>
+    sort_title: 051_+<<level>>_<<sort_title_name>>
     sync_mode: append
     schedule:
       - weekly(sunday)
@@ -105,7 +105,7 @@ templates:
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
-    sort_title: 060_+<<level>>_<<sort_title_name>>
+    sort_title: 059_+<<level>>_<<sort_title_name>>
     sync_mode: sync
     url_poster: <<poster_url>>
     minimum_items: 3
@@ -120,7 +120,7 @@ templates:
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
-    sort_title: 065_+<<level>>_<<sort_title_name>>
+    sort_title: 064_+<<level>>_<<sort_title_name>>
     sync_mode: sync
     schedule:
       - weekly(tuesday)
@@ -134,7 +134,7 @@ templates:
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
-    sort_title: 066_+<<level>>_<<sort_title_name>>
+    sort_title: 065_+<<level>>_<<sort_title_name>>
     sync_mode: sync
     schedule:
       - weekly(wednesday)
@@ -148,7 +148,7 @@ templates:
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
-    sort_title: 070_+<<level>>_<<sort_title_name>>
+    sort_title: 069_+<<level>>_<<sort_title_name>>
     sync_mode: append
     schedule:
       - weekly(monday)
@@ -162,7 +162,7 @@ templates:
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
-    sort_title: 080_+<<level>>_<<sort_title_name>>
+    sort_title: 079_+<<level>>_<<sort_title_name>>
     sync_mode: sync
     schedule:
       - weekly(monday)
@@ -182,7 +182,7 @@ templates:
         producer: tmdb
         writer: tmdb
     tmdb_person: <<person>>
-    sort_title: 090_+<<level>>_<<sort_title_name>>
+    sort_title: 089_+<<level>>_<<sort_title_name>>
     sync_mode: append
     visible_library: false
 
@@ -191,7 +191,7 @@ templates:
       level: ""
       sort_title_name: <<collection_name>>
     tmdb_actor_details: <<person>>
-    sort_title: 090_+<<level>>_<<sort_title_name>>
+    sort_title: 089_+<<level>>_<<sort_title_name>>
     sync_mode: append
     visible_library: false
 
@@ -219,7 +219,7 @@ templates:
       sort_title_name: <<collection_name>>
     optional:
       - poster
-    sort_title: 100_+<<level>>_<<sort_title_name>>
+    sort_title: 099_+<<level>>_<<sort_title_name>>
     smart_filter:
       sort_by: release.desc
       validate: false
@@ -235,7 +235,7 @@ templates:
       sort_title_name: <<collection_name>>
     optional:
       - poster
-    sort_title: 100_+<<level>>_<<sort_title_name>>
+    sort_title: 099_+<<level>>_<<sort_title_name>>
     smart_filter:
       sort_by: title.desc
       validate: false
@@ -275,7 +275,7 @@ templates:
     default:
       level: ""
       sort_title_name: <<collection_name>>
-    sort_title: 120_+<<level>>_<<sort_title_name>>
+    sort_title: 119_+<<level>>_<<sort_title_name>>
     sync_mode: sync
     schedule:
       - daily
