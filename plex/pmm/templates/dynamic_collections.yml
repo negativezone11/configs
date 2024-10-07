@@ -12,7 +12,7 @@ templates:
       all:
         year.gte: <<key_name>>
         year.lte: <<ending>>
-    sort_title: 079_+<<level>>_<<starting>>
+    sort_title: 079_++<<level>>_<<starting>>
     url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Decades/<<starting>>.png
     visible_library: false
     visible_shared: false

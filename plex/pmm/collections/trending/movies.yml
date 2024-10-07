@@ -15,6 +15,7 @@ collections:
     visible_library: true
     visible_home: true
     visible_shared: true
+    radarr_add_missing: true
 
   # Trending online
   "📈 Trending Now":
@@ -30,6 +31,7 @@ collections:
     visible_library: true
     visible_home: true
     visible_shared: true
+    radarr_add_missing: true
 
   # Trending on Plex
   "👀 What Everyone Is Watching":

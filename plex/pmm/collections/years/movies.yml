@@ -16,6 +16,7 @@ templates:
     visible_library: false
     visible_shared: false
     visible_home: false
+    # radarr_add_missing: true
     schedule:
       - monthly(01)
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/year/best/<<key>>.jpg
