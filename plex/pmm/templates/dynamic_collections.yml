@@ -6,13 +6,13 @@ templates:
   # -----------------------------
   Per_Decade:
     default:
-      level: ""
+      level: "+"
     smart_filter:
       sort_by: audience_rating.desc
       all:
         year.gte: <<key_name>>
         year.lte: <<ending>>
-    sort_title: 079_<<level>>_<<starting>>
+    sort_title: 079_+<<level>>_<<starting>>
     url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Decades/<<starting>>.png
     visible_library: false
     visible_shared: false
@@ -27,7 +27,7 @@ templates:
       all:
         genre: <<value>>
     default:
-      level: ""
+      level: "+"
       sort_title: 069_+<<level>>_<<key_name>>
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/genre/<<key_name>>.jpg
     visible_library: false
