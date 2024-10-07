@@ -162,7 +162,7 @@ templates:
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
-    sort_title: 080_+<<level>>_<<sort_title_name>>
+    sort_title: 079_+<<level>>_<<sort_title_name>>
     sync_mode: sync
     schedule:
       - weekly(monday)
