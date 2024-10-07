@@ -45,7 +45,7 @@ collections:
       - https://trakt.tv/users/nwithan8/lists/5-or-less-on-rotton-tomatoes?sort=rank,asc
     collection_order: random
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -59,7 +59,7 @@ collections:
     trakt_list: https://trakt.tv/users/nwithan8/lists/biggest-box-office-bombs?sort=rank,asc
     collection_order: random
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -74,7 +74,7 @@ collections:
       - https://trakt.tv/users/lish408/lists/how-did-this-get-made-podcast
     collection_order: custom
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -114,7 +114,7 @@ collections:
     collection_order: custom
     schedule:
       - daily
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -128,7 +128,7 @@ collections:
     collection_order: release.desc
     schedule:
       - daily
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -145,7 +145,7 @@ collections:
     collection_order: random
     schedule:
       - monthly(03)
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -160,7 +160,7 @@ collections:
     collection_order: custom
     schedule:
       - monthly(04)
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -173,7 +173,7 @@ collections:
       - https://trakt.tv/users/maxwelldeux/lists/the-criterion-collection
     collection_order: critic_rating.desc
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -188,7 +188,7 @@ collections:
       - https://trakt.tv/users/steffe73/lists/filmer-som-jag-har-pa-vhs
     collection_order: random
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -201,7 +201,7 @@ collections:
       - https://trakt.tv/users/nwithan8/lists/cancelled
     collection_order: random
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -216,7 +216,7 @@ collections:
     mdblist_list: https://mdblist.com/lists/hdlists/james-bond-movies
     collection_order: release
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -230,7 +230,7 @@ collections:
       - https://trakt.tv/users/cybercelia/lists/mcu
     collection_order: release
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -244,7 +244,7 @@ collections:
       - https://trakt.tv/users/maxrax/lists/dc-cinematics
     collection_order: release
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -258,7 +258,7 @@ collections:
       - https://www.imdb.com/list/ls093405279
     collection_order: release
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -272,7 +272,7 @@ collections:
     url_background: https://i.redd.it/vz20prnp8v551.jpg
     collection_order: release
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -286,7 +286,7 @@ collections:
     url_background: https://images.unsplash.com/photo-1579566346927-c68383817a25
     collection_order: custom
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -301,7 +301,7 @@ collections:
     url_background: https://wallpapercave.com/wp/vPJGO64.jpg
     collection_order: custom
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -316,7 +316,7 @@ collections:
     url_background: https://www.scified.com/media/versions_of_godzilla.jpg
     collection_order: release
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -330,7 +330,7 @@ collections:
     url_background: https://images.unsplash.com/photo-1598391990342-311775e3d374
     collection_order: random
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -345,7 +345,7 @@ collections:
     url_background: https://wallpapercave.com/wp/wp2328085.jpg
     collection_order: random
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -360,7 +360,7 @@ collections:
         writer: "Stephen King"
       sort_by: release.asc
     # default schedule
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 

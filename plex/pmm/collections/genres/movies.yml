@@ -11,7 +11,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/lish408/lists/stand-up-comedy-specials
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -23,7 +23,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/spoof-parody-films
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -35,7 +35,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/lish408/lists/rotten-tomatoes-the-200-best-romantic-comedies-of-all-time
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -46,7 +46,7 @@ collections:
     summary: "The best sports movies, ever."
     mdblist_list: https://mdblist.com/lists/hdlists/150-best-sports-movies-of-all-time
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false  # Not advertised on the home page
     visible_shared: false  # Not advertised on the home page
 
@@ -57,7 +57,7 @@ collections:
     summary: "Don't forget about the getaway driver out front"
     mdblist_list: https://mdblist.com/lists/hdlists/best-heist-movies-of-all-time
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false  # Not advertised on the home page
     visible_shared: false  # Not advertised on the home page
 
@@ -72,7 +72,7 @@ collections:
       genre.any: thriller
       rating.gte: 5.0
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false  # Not advertised on the home page
     visible_shared: false  # Not advertised on the home page
 
@@ -83,7 +83,7 @@ collections:
     summary: "Bet you didn't see THAT coming..."
     mdblist_list: https://mdblist.com/lists/hdlists/crazy-plot-twists
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false  # Not advertised on the home page
     visible_shared: false  # Not advertised on the home page
 
@@ -94,7 +94,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/k0meta/lists/movies-based-on-true-stories
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -106,7 +106,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/k0meta/lists/movies-based-on-books
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -118,7 +118,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/k0meta/lists/movies-based-on-video-games
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -130,7 +130,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/k0meta/lists/movies-based-on-comics
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -145,7 +145,7 @@ collections:
       - https://trakt.tv/users/ctt2canuckt/lists/kaiju-monsters
       - https://trakt.tv/users/twentywashere/lists/welcome-to-earth-alien-invasions
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -157,7 +157,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/lish408/lists/true-crime-documentary-series-film
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -168,7 +168,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/bon-appetit
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false  # Not advertised on the home page
     visible_shared: false  # Not advertised on the home page
 
@@ -181,7 +181,7 @@ collections:
       - https://trakt.tv/users/majeed_pk/lists/documentaries
       - https://trakt.tv/users/bangiras/lists/favorites-documentary
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -192,7 +192,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/the-complete-list-of-mafia-gangsters-movies
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false  # Not advertised on the home page
     visible_shared: false  # Not advertised on the home page
 
@@ -204,7 +204,7 @@ collections:
   #  trakt_list:
   #    - https://trakt.tv/users/majeed_pk/lists/biographies
   #  collection_order: random
-  #  visible_library: true
+  #  visible_library: false
   #  visible_home: false
   #  visible_shared: false
 
@@ -216,7 +216,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/existentialist-films
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -228,7 +228,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/courtroom-dramas
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false  # Not advertised on the home page
     visible_shared: false  # Not advertised on the home page
 
@@ -240,7 +240,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/world-war-ii-in-chronological-order
     collection_order: custom  # Maintain the order of the list
-    visible_library: true
+    visible_library: false
     visible_home: false  # Not advertised on the home page
     visible_shared: false  # Not advertised on the home page
 
@@ -309,7 +309,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/feelgood-movies
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
@@ -338,7 +338,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/majeed_pk/lists/the-weirdo-s-videostore
     collection_order: random
-    visible_library: true
+    visible_library: false
     visible_home: false
     visible_shared: false
 
