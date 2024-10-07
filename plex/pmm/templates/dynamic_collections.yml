@@ -6,7 +6,7 @@ templates:
   # -----------------------------
   Per_Decade:
     default:
-      level: "+"
+      level: "++"
     smart_filter:
       sort_by: audience_rating.desc
       all:
@@ -27,7 +27,7 @@ templates:
       all:
         genre: <<value>>
     default:
-      level: "+"
+      level: "++"
       sort_title: 069_+<<level>>_<<key_name>>
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/genre/<<key_name>>.jpg
     visible_library: false
@@ -44,7 +44,7 @@ templates:
       any:
         country: <<value>>
     default:
-      level: ""
+      level: "++"
     sort_title: 110_+<<level>>_<<key_name>>
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/country/white/<<key_name>>.jpg
     visible_library: false
@@ -59,7 +59,7 @@ templates:
       any:
         audio_language: <<value>>
     default:
-      level: ""
+      level: "++"
     sort_title: 115_+<<level>>_<<key_name>>
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/audio_language/<<value>>.jpg
     visible_library: false

@@ -4,7 +4,7 @@ external_templates:
 templates:
   Promoted:
     default:
-      level: "+"
+      level: "++"
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
@@ -17,7 +17,7 @@ templates:
 
   InMemoriamActor:
     default:
-      level: ""
+      level: "++"
       sort_title_name: <<collection_name>>
     tmdb_person: <<tmdb_id>>
     smart_filter:
@@ -32,7 +32,7 @@ templates:
 
   InMemoriamDirector:
     default:
-      level: ""
+      level: "++"
       sort_title_name: <<collection_name>>
     tmdb_person: <<tmdb_id>>
     smart_filter:
@@ -47,7 +47,7 @@ templates:
 
   New:
     default:
-      level: "+"
+      level: "++"
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
@@ -60,7 +60,7 @@ templates:
 
   Chart:
     default:
-      level: "+"
+      level: "++"
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
@@ -73,7 +73,7 @@ templates:
 
   Award:
     default:
-      level: "+"
+      level: "++"
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
@@ -86,7 +86,7 @@ templates:
 
   ActorAward:
     default:
-      level: "+"
+      level: "++"
       sort_title_name: <<collection_name>>
     smart_filter: # smart filter means Plex will automatically update the collection when new movies are added, rather than having to rerun the script
       sort_by: release.desc
@@ -101,7 +101,7 @@ templates:
 
   Holiday:
     default:
-      level: "+"
+      level: "++"
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
@@ -116,7 +116,7 @@ templates:
 
   Collection:
     default:
-      level: "+"
+      level: "++"
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
@@ -130,7 +130,7 @@ templates:
 
   Franchise:
     default:
-      level: "+"
+      level: "++"
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
@@ -144,7 +144,7 @@ templates:
 
   Genre:
     default:
-      level: "+"
+      level: "++"
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
@@ -158,7 +158,7 @@ templates:
 
   Decade:
     default:
-      level: "+"
+      level: "++"
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
@@ -172,7 +172,7 @@ templates:
 
   Person:
     default:
-      level: "+"
+      level: "++"
       sort_title_name: <<collection_name>>
     smart_filter:
       sort_by: release.desc
@@ -188,7 +188,7 @@ templates:
 
   Actor:
     default:
-      level: "+"
+      level: "++"
       sort_title_name: <<collection_name>>
     tmdb_actor_details: <<person>>
     sort_title: 090_+<<level>>_<<sort_title_name>>
@@ -197,7 +197,7 @@ templates:
 
   Director:
     default:
-      level: "+"
+      level: "++"
       sort_title_name: <<collection_name>>
     tmdb_director_details: <<person>>
     sort_title: 092_+<<level>>_<<sort_title_name>>
@@ -206,7 +206,7 @@ templates:
 
   Producer:
     default:
-      level: ""
+      level: "++"
       sort_title_name: <<collection_name>>
     tmdb_producer_details: <<person>>
     sort_title: 092_+<<level>>_<<sort_title_name>>
@@ -215,7 +215,7 @@ templates:
 
   Studio:
     default:
-      level: "+"
+      level: "++"
       sort_title_name: <<collection_name>>
     optional:
       - poster
@@ -231,7 +231,7 @@ templates:
 
   Network:
     default:
-      level: "+"
+      level: "++"
       sort_title_name: <<collection_name>>
     optional:
       - poster
@@ -247,7 +247,7 @@ templates:
 
   Country:
     default:
-      level: ""
+      level: "++"
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
@@ -260,7 +260,7 @@ templates:
 
   Language:
     default:
-      level: ""
+      level: "++"
       sort_title_name: <<collection_name>>
     optional:
       - poster_url
@@ -273,7 +273,7 @@ templates:
 
   General:
     default:
-      level: "+"
+      level: "++"
       sort_title_name: <<collection_name>>
     sort_title: 120_+<<level>>_<<sort_title_name>>
     sync_mode: sync
