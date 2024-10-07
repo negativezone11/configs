@@ -12,8 +12,8 @@ collections:
       - https://trakt.tv/users/lish408/lists/stand-up-comedy-specials
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: false
+    visible_shared: false
 
   "😜 Spoofs and Parodies":
     template: { name: Genre,
@@ -24,8 +24,8 @@ collections:
       - https://trakt.tv/users/majeed_pk/lists/spoof-parody-films
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: false
+    visible_shared: false
 
   "👩‍❤️‍💋‍👨 Rom-com Central":
     template: { name: Genre,
@@ -36,8 +36,8 @@ collections:
       - https://trakt.tv/users/lish408/lists/rotten-tomatoes-the-200-best-romantic-comedies-of-all-time
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: false
+    visible_shared: false
 
   "🏀 Slam Dunk":
     template: { name: Genre,
@@ -95,8 +95,8 @@ collections:
       - https://trakt.tv/users/k0meta/lists/movies-based-on-true-stories
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: false
+    visible_shared: false
 
   "📖 The Book Was Better":
     template: { name: Genre,
@@ -107,8 +107,8 @@ collections:
       - https://trakt.tv/users/k0meta/lists/movies-based-on-books
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: false
+    visible_shared: false
 
   "🕹️ Arrow In The Knee":
     template: { name: Genre,
@@ -119,8 +119,8 @@ collections:
       - https://trakt.tv/users/k0meta/lists/movies-based-on-video-games
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: false
+    visible_shared: false
 
   "💬 With Great Power...":
     template: { name: Genre,
@@ -131,8 +131,8 @@ collections:
       - https://trakt.tv/users/k0meta/lists/movies-based-on-comics
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: false
+    visible_shared: false
 
   "👾 Monsters vs. Aliens":
     template: { name: Genre,
@@ -146,8 +146,8 @@ collections:
       - https://trakt.tv/users/twentywashere/lists/welcome-to-earth-alien-invasions
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: false
+    visible_shared: false
 
   "🔍 A Real-Life Whodunnit":
     template: { name: Genre,
@@ -158,8 +158,8 @@ collections:
       - https://trakt.tv/users/lish408/lists/true-crime-documentary-series-film
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: false
+    visible_shared: false
 
   "👨‍🍳 Bon Appetit":
     template: { name: Genre,
@@ -182,8 +182,8 @@ collections:
       - https://trakt.tv/users/bangiras/lists/favorites-documentary
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: false
+    visible_shared: false
 
   "🧥 I'm Gonna Make Him an Offer":
     template: { name: Genre,
@@ -205,8 +205,8 @@ collections:
   #    - https://trakt.tv/users/majeed_pk/lists/biographies
   #  collection_order: random
   #  visible_library: true
-  #  visible_home: true
-  #  visible_shared: true
+  #  visible_home: false
+  #  visible_shared: false
 
   "🌿 What Is Life Anyway?":
     template: { name: Genre,
@@ -217,8 +217,8 @@ collections:
       - https://trakt.tv/users/majeed_pk/lists/existentialist-films
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: false
+    visible_shared: false
 
   "⚖️ Order In The Court":
     template: { name: Genre,
@@ -310,8 +310,8 @@ collections:
       - https://trakt.tv/users/majeed_pk/lists/feelgood-movies
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: false
+    visible_shared: false
 
   "🧘 Enjoy The Weekend":
     template: { name: Genre,
@@ -339,8 +339,8 @@ collections:
       - https://trakt.tv/users/majeed_pk/lists/the-weirdo-s-videostore
     collection_order: random
     visible_library: true
-    visible_home: true
-    visible_shared: true
+    visible_home: false
+    visible_shared: false
 
   "⁉️ Controversial Cinema":
     template: { name: Genre,
