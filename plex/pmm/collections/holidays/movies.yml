@@ -58,24 +58,7 @@ collections:
       - https://www.imdb.com/list/ls000094398/
       - https://www.imdb.com/list/ls057783436/
       - https://www.imdb.com/list/ls064427905/
-
-  "✊🏿 Black History Month":
-    schedule:
-      - range(02/01-03/01)
-    visible_home: range(02/01-02/29)
-    visible_shared: range(02/01-02/29)
-    visible_library: range(02/01-02/29)
-    template: { name: Holiday,
-                level: "++",
-                poster_url: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/seasonal/black_history2.jpg }
-    summary: "Celebrate Black History Month with these movies!"
-    collection_order: random
-    trakt_list:
-      - https://trakt.tv/users/k0meta/lists/black-history-month
-      - https://trakt.tv/users/bangiras/lists/diversity-main-characters-of-african-black-descent-anglo-american
-      - https://trakt.tv/users/bangiras/lists/diversity-main-characters-of-african-black-descent-caribbean
-      - https://trakt.tv/users/bangiras/lists/diversity-main-characters-of-african-black-descent
-
+      
   "☘ St. Patrick's Day":
     schedule:
       - range(03/01-03/19)
@@ -189,25 +172,6 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls002014923/
 
-  "🏳️‍🌈 LGBTQ+ Pride Month":
-    schedule:
-      - range(06/01-07/01)
-    visible_home: range(06/01-06/30)
-    visible_shared: range(06/01-06/30)
-    visible_library: range(06/01-06/30)
-    template: { name: Holiday,
-                level: "++",
-                poster_url: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/seasonal/lgbtq.jpg }
-    summary: "Celebrate Pride Month with these movies!"
-    collection_order: random
-    trakt_list:
-      - https://trakt.tv/users/k0meta/lists/lgbtq-pride-month
-      - https://trakt.tv/users/bangiras/lists/diversity-main-characters-who-are-bisexual-pansexual
-      - https://trakt.tv/users/bangiras/lists/diversity-main-characters-who-are-crossdressers-drag-performers
-      - https://trakt.tv/users/bangiras/lists/diversity-main-characters-who-are-gay-lesbian-homosexual
-      - https://trakt.tv/users/bangiras/lists/diversity-main-characters-who-are-transgender-genderqueer-non-binary-etc
-      - https://trakt.tv/users/bangiras/lists/favorites-lgbtq
-
   "👨 Father's Day":
     schedule:
       - range(06/15-06/21)
@@ -288,10 +252,10 @@ collections:
     trakt_list:
       - https://trakt.tv/users/29zombies/lists/halloween
       - https://trakt.tv/users/galacticboy/lists/not-so-spooky-halloween
-      # - https://trakt.tv/users/kairbear08/lists/halloween
-      # - https://trakt.tv/users/mybicycle/lists/halloween
-      # - https://trakt.tv/users/jayinftl/lists/halloween
-      # - https://trakt.tv/users/roswellgeek/lists/halloween
+      - https://trakt.tv/users/kairbear08/lists/halloween
+      - https://trakt.tv/users/mybicycle/lists/halloween
+      - https://trakt.tv/users/jayinftl/lists/halloween
+      - https://trakt.tv/users/roswellgeek/lists/halloween
     tmdb_collection:
       - 185103    # Hotel Transylvania
       - 11716     # Addams Family
@@ -317,7 +281,7 @@ collections:
     summary: "Don't be scared, it's just a movie."
     collection_order: random
     trakt_list:
-      - https://trakt.tv/users/lish408/lists/31-days-of-horror-2024  # TODO: Change annually
+      - https://trakt.tv/users/eurowin39cdw/lists/horroronly_1970to2024  # TODO: Change annually
 
   "🍬 Trick or Treat":
     schedule:
@@ -330,7 +294,7 @@ collections:
     summary: "Trick or Treat!"
     collection_order: random
     trakt_list:
-      - https://trakt.tv/users/hdlists/lists/halloween-movies-for-kids
+      - https://trakt.tv/users/krissykk/lists/halloween-trick-or-treat-family-friendly-movies
 
   "🔪 Slasher":
     schedule:
@@ -343,7 +307,7 @@ collections:
     summary: "He's right behind you!"
     collection_order: random
     trakt_list:
-      - https://trakt.tv/users/hdlists/lists/80s-slasher-movies
+      - https://trakt.tv/users/ravynloony/lists/slashers
 
   "🗳️ Election Day":
     schedule:
