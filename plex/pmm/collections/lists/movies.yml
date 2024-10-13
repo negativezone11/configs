@@ -65,19 +65,6 @@ collections:
 
   ### PODCASTS ###
 
-  "🤨 How Did This Get Made?":
-    template: { name: Collection,
-                sort_title: "How Did This Get Made?",
-                level: "++" }
-    summary: "The films of the podcast 'How Did This Get Made?'"
-    trakt_list:
-      - https://trakt.tv/users/lish408/lists/how-did-this-get-made-podcast
-    collection_order: custom
-    # default schedule
-    visible_library: true
-    visible_home: true
-    visible_shared: true
-
   ### LISTS ###
 
   "🎩 1001 Movies You Must See Before You Die":
@@ -202,6 +189,20 @@ collections:
     summary: "You're watching Disney Channel"
     imdb_list:
       - https://www.imdb.com/list/ls093405279
+    collection_order: release
+    # default schedule
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+    "🐭 Disney Live Action Movies":
+    template: { name: Franchise,
+                sort_title: "Disney Live Action Movies",
+                level: "+" }
+    name_mapping: "Disney Live Action Movies Collection"
+    summary: "The Whole Collection of Disney Live Action Films"
+    trakt_list:
+      - https://trakt.tv/users/redheadjedi/lists/walt-disney-live-action-movies
     collection_order: release
     # default schedule
     visible_library: true
