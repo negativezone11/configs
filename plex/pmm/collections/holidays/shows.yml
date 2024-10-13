@@ -9,24 +9,7 @@ collections:
   # ++ - Month-long or extended holidays
   # + - Lesser holidays
 
-  "✊🏿 Black History Month":
-    schedule:
-      - range(02/01-03/01)
-    visible_home: range(02/01-02/29)
-    visible_shared: range(02/01-02/29)
-    visible_library: range(02/01-02/29)
-    template: { name: Holiday,
-                level: "++",
-                poster_url: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/seasonal/black_history2.jpg }
-    summary: "Celebrate Black History Month with these movies!"
-    collection_order: random
-    trakt_list:
-      - https://trakt.tv/users/k0meta/lists/black-history-month
-      - https://trakt.tv/users/bangiras/lists/diversity-main-characters-of-african-black-descent-anglo-american
-      - https://trakt.tv/users/bangiras/lists/diversity-main-characters-of-african-black-descent-caribbean
-      - https://trakt.tv/users/bangiras/lists/diversity-main-characters-of-african-black-descent
-
-  "🌏 AAPI Heritage Month":
+    "🌏 AAPI Heritage Month":
     schedule:
       - range(05/01-06/01)
     visible_home: range(05/01-05/31)
@@ -51,25 +34,6 @@ collections:
       - https://trakt.tv/users/bangiras/lists/plot-media-featuring-china-and-chinese-culture
       - https://trakt.tv/users/bangiras/lists/plot-media-featuring-japan-and-japanese-culture
       - https://trakt.tv/users/bangiras/lists/plot-media-featuring-korea-and-korean-culture
-
-  "🏳️‍🌈 LGBTQ+ Pride Month":
-    schedule:
-      - range(06/01-07/01)
-    visible_home: range(06/01-06/30)
-    visible_shared: range(06/01-06/30)
-    visible_library: range(06/01-06/30)
-    template: { name: Holiday,
-                level: "++",
-                poster_url: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/seasonal/lgbtq.jpg }
-    summary: "Celebrate Pride Month with these movies!"
-    collection_order: random
-    trakt_list:
-      - https://trakt.tv/users/k0meta/lists/lgbtq-pride-month
-      - https://trakt.tv/users/bangiras/lists/diversity-main-characters-who-are-bisexual-pansexual
-      - https://trakt.tv/users/bangiras/lists/diversity-main-characters-who-are-crossdressers-drag-performers
-      - https://trakt.tv/users/bangiras/lists/diversity-main-characters-who-are-gay-lesbian-homosexual
-      - https://trakt.tv/users/bangiras/lists/diversity-main-characters-who-are-transgender-genderqueer-non-binary-etc
-      - https://trakt.tv/users/bangiras/lists/favorites-lgbtq
 
   "🇪🇸 Hispanic Heritage Month":
     schedule:
