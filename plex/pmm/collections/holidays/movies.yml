@@ -295,6 +295,7 @@ collections:
     collection_order: random
     trakt_list:
       - https://trakt.tv/users/krissykk/lists/halloween-trick-or-treat-family-friendly-movies
+      - https://trakt.tv/users/galacticboy/lists/not-so-spooky-halloween
 
   "🔪 Slasher":
     schedule:
