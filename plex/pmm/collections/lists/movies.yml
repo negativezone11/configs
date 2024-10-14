@@ -63,76 +63,7 @@ collections:
     visible_home: false
     visible_shared: false
 
-  ### PODCASTS ###
-
-  "🤨 How Did This Get Made?":
-    template: { name: Collection,
-                sort_title: "How Did This Get Made?",
-                level: "++" }
-    summary: "The films of the podcast 'How Did This Get Made?'"
-    trakt_list:
-      - https://trakt.tv/users/lish408/lists/how-did-this-get-made-podcast
-    collection_order: custom
-    # default schedule
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-
-  "👍 Best Movie Ever":
-    template: { name: Collection,
-                sort_title: "Weekly Planet - Best Movie Ever",
-                level: "++" }
-    trakt_list_details:
-      - https://trakt.tv/users/nwithan8/lists/best-movie-ever?sort=added,asc
-    collection_order: random
-    schedule:
-      - daily
-    visible_library: true
-    visible_home: false
-    visible_shared: false
-
-  "👎 Worst Movie Ever":
-    template: { name: Collection,
-                sort_title: "Weekly Planet - Worst Movie Ever",
-                level: "++" }
-    trakt_list_details:
-      - https://trakt.tv/users/nwithan8/lists/worst-movie-ever?sort=added,asc
-    collection_order: random
-    schedule:
-      - daily
-    visible_library: true
-    visible_home: false
-    visible_shared: false
-
-  "📼 The Video Archives Podcast":
-    template: { name: Collection,
-                sort_title: "The Video Archives Podcast",
-                level: "++" }
-    trakt_list_details:
-      - https://trakt.tv/users/elpresidente-52a653dc-2f83-4f53-8715-2988556e7d63/lists/the-video-archives-podcast
-    summary: "The podcast features discussion on films from the VHS library of Quentin Tarantino, the bulk of which is the original stock from Video Archives, which Quentin purchased when the store closed."
-    collection_order: custom
-    schedule:
-      - daily
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-
-  "🎙️ Nate Reviews":
-    template: { name: Collection,
-                sort_title: "Nate Reviews",
-                level: "++" }
-    summary: "Every movie from the Nate Reviews YouTube series"
-    trakt_list:
-      - https://trakt.tv/users/nwithan8/lists/nate-reviews?sort=my_rating,asc
-    collection_order: release.desc
-    schedule:
-      - daily
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-
-  ### LISTS ###
+    ### LISTS ###
 
   "🎩 1001 Movies You Must See Before You Die":
     template: { name: Collection,
